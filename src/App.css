@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, p{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: inherit;
+  cursor: pointer;
+  border: none;
+  color: white;
+  width: 230px;
+  font-size: 1rem;
+}
+button:hover{
+  transform: scale(1.1);
+}
