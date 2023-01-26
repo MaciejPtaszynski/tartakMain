@@ -1,20 +1,17 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero'
 import Offer from './components/Offer/Offer'
-import Contact from './components/Contact/Contact'
-// import { BrowserRouter as Router, Switch, Route } from 
-// 'react-router-dom';
+import Footer from './components/Footer/Footer';
+
 import './App.css';
 
 
 function App() {
   return (
     <div className='App'>
-        <Navbar/>
         <Hero/>
         <Offer/>
-        <Contact/>
+        <Footer/>
     </div>
   );
 } 

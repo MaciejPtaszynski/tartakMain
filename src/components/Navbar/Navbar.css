@@ -13,8 +13,21 @@
     background-color: grey;
     opacity: 0.5;
 }
-/* .nabbar-logo{
-    margin: 0 20px;
-    font-size: 1.5rem;
-    color: white;
-} */
+.button {
+    color: #ffff;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: green;
+    border-radius: 5%;
+    margin-right: 20px;
+    width: 120px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.button:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
