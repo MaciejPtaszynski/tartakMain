@@ -1,38 +1,50 @@
-body{
-  margin: 0;
-  padding: 0;
+* {
+    box-sizing: border-box;
 }
 
-h1, h2, h3, h4, p{
-  margin: 0;
-  padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-*{
-  box-sizing: border-box;
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
 }
 
-button{
-  padding: 10px 20px;
-  background-color: green;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  width: 230px;
-  font-size: 1rem;
-  -webkit-transition: all 1s ease;
+button {
+    padding: 10px 20px;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 230px;
+    font-size: 1rem;
+    -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
-
 }
-button:hover{
-  transform: scale(1.1);
+
+button:hover {
+    transform: scale(1.1);
     transition: 500ms;
 }
 
 img {
-  max-width: 100%;
-  vertical-align: middle;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    .contact {
+        display: none;
+    }
 }
