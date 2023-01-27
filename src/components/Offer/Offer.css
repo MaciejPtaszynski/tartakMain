@@ -46,9 +46,9 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .offer-logo {
+    /* .offer-logo {
         display: none;
-    }
+    } */
 
     .section-title {
         margin-top: 30px
