@@ -23,7 +23,7 @@ function Footer() {
             80-112 Ostaszewo
           </p>
         </div>
-        <a href="tel:534916564" className="footerIcon"><PhoneAndroidIcon style={{marginRight: "10px"}}
+        <a href="tel:534916564" className="footerIcon"><PhoneAndroidIcon style={{marginRight: "10px", marginLeft: 5}}
                                                                          className={"icon"}/> 534 916 564
         </a>
         <a className="footerIcon" href="mailto:jantartartak@gmail.com"><AlternateEmailIcon className={"icon"}/>
