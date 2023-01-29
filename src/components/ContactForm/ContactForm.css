@@ -3,13 +3,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.3;);
+    background-color: rgba (255, 255, 255, 0.3);
+    color: white;
+
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.3;);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: rgba (255, 255, 255, 0.3);
+    padding: 20px
+
 }
 
 .input {
@@ -38,6 +45,8 @@ textarea {
     background-color: rgba(255, 255, 255, 0.7);
     border: none;
     cursor: pointer;
+    resize: none;
+
 }
 
 textarea:focus {
@@ -90,7 +99,8 @@ textarea:focus {
 
     textarea {
         margin-top: 10px;
-        min-width: 230px;
+        min-width: 250px;
+        resize: none;
     }
 
     textarea:focus {
