@@ -22,28 +22,160 @@
     justify-content: center;
 }
 
+.offer--logo {
+    width: 300px;
+    height: 300px;
+}
+
 
 .offer {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin: 40px;
     padding: 0 12px;
     width: 400px;
     height: 500px;
-    background-color: whitesmoke;
-    /*box-shadow: 10px 5px 5px lightgray;*/
+    color: #fff;
+    /*background-color: whitesmoke;*/
     box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 5px;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease
 }
+
+.slate--roof {
+    background-image: url("../../library/ico2_montaz_lat_dachowych.jpeg");
+    background-size: cover;
+}
+
+.slate--roof h2 {
+    padding-top: 110px;
+    line-height: 1.5;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+.slate--planks {
+    color: #ffffff;
+    padding-top: 23em;
+    position: relative;
+    background-image: url("../../library/deski-tarasowe.webp");
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.slate--planks h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+.slate--bench {
+    color: #ffffff;
+    padding-top: 23em;
+    position: relative;
+    background-image: url("../../library/wiata1.jpg");
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slate--bench h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+.slate--stairs {
+    color: #ffffff;
+    padding-top: 23em;
+    position: relative;
+    background-image: url("../../library/schody1.webp");
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slate--stairs h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+.slate--pallets {
+    color: #ffffff;
+    padding-top: 23em;
+    position: relative;
+    background-image: url("../../library/paleta2.webp");
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slate--pallets h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+
+.slate--formwork {
+    color: #ffffff;
+    padding-top: 23em;
+    position: relative;
+    background-image: url("../../library/deski-sz2.webp");
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slate--formwork h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+.slate--transport {
+    color: #ffffff;
+    padding-top: 23em;
+    position: relative;
+    background-image: url("../../library/transport1.jpg");
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slate--transport h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
 .offer h2 {
     margin: 30px 0
 }
+
 .offer p {
     margin-top: 30px
 }
@@ -64,10 +196,10 @@
     margin-bottom: 15px
 }
 
-.offer:hover {
-    transform: scale(1.1);
-    transition: 500ms;
-}
+/*.offer:hover {*/
+/*    transform: scale(1.1);*/
+/*    transition: 500ms;*/
+/*}*/
 
 @media only screen and (max-width: 800px) {
     .offerContainer h1 {
