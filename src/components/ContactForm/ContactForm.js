@@ -12,7 +12,7 @@ function ContactForm() {
         <input className={"input"} placeholder='imię'/>
         <input className={"input"} placeholder='email'/>
         <textarea placeholder='twoja wiadomość'/>
-        <button className={"btn"}>wyslij</button>
+        <button className={"btn"}>WYŚLIJ</button>
       </form>
     </div>
   </>

@@ -64,10 +64,7 @@ export default function Roof({handleClose}) {
           <img alt={"2nd roof construction"} style={imageStyle} src={img2}/>
         </Box>
 
-        <Typography p={5} sx={{lineHeight: 1.7}}>Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        <Typography p={5} sx={{lineHeight: 1.7}}>Oferujemy konstrukcje dachowe w rozmaitych wariantach wymiarowych z drzewa iglastego. Istnieje możliwość impregnacji metodą zanurzeniową. Produkujemy również łaty i kontrłaty z możliwością impregnacji. Do wytwarzenia naszych produktów urzywamy wysokiej jakoci drewna. Wyceny każdej konstrukcju dokonujemy indywidualnie. Więcej informacji pod nr telefonu 534 916 564 lub mailowo jantartartak@gmail.com .
         </Typography>
         {isMobile && <Button sx={{marginBottom: 3, padding: "10px 30px", backgroundColor: "#98ff98"}}
                              onClick={handleClose}>ZAMIKNIJ</Button>}
