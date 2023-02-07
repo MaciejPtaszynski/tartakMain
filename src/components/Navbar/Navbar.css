@@ -1,6 +1,7 @@
-.navbar{
-    padding-top: 0pt;
+.navbar {
+    padding-top: 0;
 }
+
 .navbar-container {
     display: flex;
     flex-direction: row;
@@ -10,9 +11,9 @@
     align-items: center;
     position: fixed;
     z-index: 100;
-    background-color: grey;
     opacity: 0.5;
 }
+
 .button {
     color: #ffff;
     position: absolute;
@@ -27,6 +28,7 @@
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+
 .button:hover {
     transform: scale(1.1);
     transition: 500ms;

@@ -9,28 +9,24 @@ const sawmillUrl = "https://www.google.com/maps/place/Jantar+Le%C5%9Bnicz%C3%B3w
 
 function Footer() {
 
-
   return (
     <div className='footerContainer'>
-      <div className="footerLogo"><img alt="company logo" src={logoTartak}/></div>
-      <div className="footerIcons">
-        <div className="footerIcon col">
-          <h4>Dane do faktury:</h4>
-          <p className={"invoice-info"}>Tartak Markowski Wojtowicz S.C.<br/>
-            Regon: 12345678901234<br/>
-            NIP: 1234567890 <br/>
-            Kościuszki 49<br/>
-            80-112 Ostaszewo
-          </p>
+      <div className={"row"}>
+        <img alt={"company logo"} className={"footerLogo"} src={logoTartak}/>
+        <div className={"invoice"}>
+          <p>Tartak Markowski Wojtowicz S.C</p>
+          <p>Regon: 12345678901234</p>
+          <p>NIP: 1234567890</p>
+          <p>Kościuszki 49</p>
+          <p>80-112 Ostaszewo</p>
         </div>
-        <a href="tel:534916564" className="footerIcon"><PhoneAndroidIcon style={{marginRight: "10px", marginLeft: 5}}
-                                                                         className={"icon"}/> 534 916 564
-        </a>
-        <a className="footerIcon" href="mailto:jantartartak@gmail.com"><AlternateEmailIcon className={"icon"}/>
-          <p>jantartartak@gmail.com</p></a>
-        <a href={sawmillUrl} className="footerIcon"><MyLocationIcon className={"icon"}/><p className="center">Jantar
-          Leśniczówka
-          20a<br/>82-103 Jantar</p></a>
+      </div>
+      <div className={"col"}>
+        <a className="footerIcon" href="tel:534916564"><PhoneAndroidIcon sx={{marginRight: 2}}/><p>534 916 564</p></a>
+        <a className="footerIcon test" href="mailto:jantartartak@gmail.com"><AlternateEmailIcon sx={{marginRight: 2}}/>
+          <p>jantartartak@gmail.com </p></a>
+        <a href={sawmillUrl} className="footerIcon"><MyLocationIcon sx={{marginRight: 2}}/><p>Jantar Leśniczówka 20a
+          82-103 Jantar</p></a>
       </div>
     </div>
   )

@@ -22,7 +22,6 @@ function Offer() {
       </div>
       <h1 className={"section-title"}>NASZA OFERTA</h1>
       <div className="offerWrapper">
-
         <div className='offer slate--roof'>
           <h2>Kosnstrukcje dachowe<br/>(z montażem)<br/> łaty i kontrłaty</h2>
           <button onClick={() => {
@@ -31,7 +30,6 @@ function Offer() {
           }}>WIĘCEJ
           </button>
         </div>
-
         <div className='offer slate--planks'>
           <h2 style={{marginTop: "25px"}}>Deski tarasowe</h2>
           <button onClick={() => {
@@ -40,7 +38,6 @@ function Offer() {
           }}>WIĘCEJ
           </button>
         </div>
-
         <div className='offer slate--bench'>
           <h2 style={{marginTop: "25px"}}>Altanki, stoły, ławki i płoty</h2>
           <button onClick={() => {
@@ -49,7 +46,6 @@ function Offer() {
           }}>WIĘCEJ
           </button>
         </div>
-
         <div className='offer slate--stairs'>
           <h2 style={{marginTop: "25px"}}>Schody</h2>
           <button onClick={() => {
@@ -58,7 +54,6 @@ function Offer() {
           }}>WIĘCEJ
           </button>
         </div>
-
         <div className='offer slate--pallets'>
           <h2>Palety</h2>
           <button onClick={() => {
@@ -67,7 +62,6 @@ function Offer() {
           }}>WIĘCEJ
           </button>
         </div>
-
         <div className='offer slate--formwork'>
           <h2>Drewno Szalunkowe</h2>
           <button onClick={() => {
@@ -76,7 +70,6 @@ function Offer() {
           }}>WIĘCEJ
           </button>
         </div>
-
         <div className='offer slate--transport'>
           <h2 style={{marginTop: "25px"}}>Transport</h2>
           <button onClick={() => {
