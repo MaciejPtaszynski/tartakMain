@@ -31,9 +31,9 @@ function Hero() {
         iteration="1"
         fillMode="none">
         <h1>TARTAK<br/>Markowski Wojtowicz S.C.</h1>
-        <h2>Drewno konstrukcyjne</h2>
-        <h2>Deski tarasowe</h2>
-        <h2>Transport</h2>
+        <h4>Konstrukcje Dachowe, Deski Tarasowe</h4>
+        <h4>Altanki, Stoły, Ławki i Płoty</h4>
+        <h4>Schody, Palety, Drewno szalunkowe</h4>
       </MovingComponent>
         
       </div>

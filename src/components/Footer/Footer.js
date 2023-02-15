@@ -16,7 +16,7 @@ function Footer() {
         <div className={"invoice"}>
           <p>Tartak Markowski Wojtowicz S.C</p>
           <p>Regon: 12345678901234</p>
-          <p>NIP: 1234567890</p>
+          <p>NIP: 5792287295</p>
           <p>Kościuszki 49</p>
           <p>80-112 Ostaszewo</p>
         </div>

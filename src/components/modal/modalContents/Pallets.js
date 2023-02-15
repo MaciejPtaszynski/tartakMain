@@ -69,7 +69,7 @@ export default function Roof({handleClose}) {
           <img alt={"2nd roof construction"} style={imageStyle} src={img2}/>
         </Box>
         <Typography p={5} sx={{lineHeight: 1.5}}>Zajmujemy się produkcją palet o dowolnych wymiarach. Wyceniamy palety w
-          zalerzności od zużytego materiału. Więcej informacji pod nr telefonu 534 916 564 lub mailowo
+          zalerzności od ich wymiarów. Więcej informacji pod nr telefonu 534 916 564 lub mailowo
           jantartartak@gmail.com .
         </Typography>
         {isMobile && <Button sx={{marginBottom: 3, padding: "10px 30px", backgroundColor: "#98ff98"}}

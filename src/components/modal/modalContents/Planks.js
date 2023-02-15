@@ -60,16 +60,16 @@ export default function Roof({handleClose}) {
       <Box style={modalContent}>
         <Box style={modalHeader}>
           <Typography pb={2} sx={{letterSpacing: !isMobile ? "1.2px" : "0.5px"}} variant={!isMobile ? "h6" : "body1"}
-                      mt={2}>Kosnstrukcje dachowe (z montażem) łaty i kontrłaty</Typography>
+                      mt={2}>Deski Tarasowe</Typography>
           {!isMobile && <CloseIcon style={closeIcon} onClick={handleClose}/>}
         </Box>
         <Box style={imgWrapper}>
           <img alt={"roof construction"} style={imageStyle} src={img1}/>
           <img alt={"2nd roof construction"} style={imageStyle} src={img2}/>
         </Box>
-        <Typography p={5} sx={{lineHeight: 1.5}}> W naszej ofercie znajdują sie deski tarasowe głatkie jak i ryflowane
+        <Typography p={5} sx={{lineHeight: 1.5}}> W naszej ofercie znajdują się deski tarasowe gładkie jak i ryflowane
           sosnowe. Na indywidualne zlecenie wykonujemy deski w różnych szerokościach. Więcej informacji pod nr telefonu
-          534 916 564 lub mailowo jantartartak@gmail.com .
+          534 916 564 lub mailowo jantartartak@gmail.com 
         </Typography>
         {isMobile && <Button sx={{marginBottom: 3, padding: "10px 30px", backgroundColor: "#98ff98"}}
                              onClick={handleClose}>ZAMIKNIJ</Button>}

@@ -60,17 +60,17 @@ export default function Roof({handleClose}) {
       <Box style={modalContent}>
         <Box style={modalHeader}>
           <Typography pb={2} sx={{letterSpacing: !isMobile ? "1.2px" : "0.5px"}} variant={!isMobile ? "h6" : "body1"}
-                      mt={2}>Kosnstrukcje dachowe (z montażem) łaty i kontrłaty</Typography>
+                      mt={2}>Transport</Typography>
           {!isMobile && <CloseIcon style={closeIcon} onClick={handleClose}/>}
         </Box>
         <Box style={imgWrapper}>
           <img alt={"roof construction"} style={imageStyle} src={img1}/>
           <img alt={"2nd roof construction"} style={imageStyle} src={img2}/>
         </Box>
-        <Typography p={5} sx={{lineHeight: 1.5}}>Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        <Typography p={5} sx={{lineHeight: 1.5}}>Prowadzimy kompleksowy transport naszych materiałów. 
+          Wyceny transportu dokonujemy na podstawie dystansu do miejsca dostawy. 
+          Więcej informacji pod nr telefonu 534 916 564
+          lub mailowo jantartartak@gmail.com
         </Typography>
         {isMobile && <Button sx={{marginBottom: 3, padding: "10px 30px", backgroundColor: "#98ff98"}}
                              onClick={handleClose}>ZAMIKNIJ</Button>}

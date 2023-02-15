@@ -18,11 +18,11 @@ a {
 
 button {
     padding: 10px 20px;
-    background-color: #98ff98;
+    background-color: green;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    color: #2F4858;
+    color: white;
     width: 230px;
     font-size: 1rem;
     -webkit-transition: all 1s ease;
