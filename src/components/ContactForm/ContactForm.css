@@ -30,8 +30,7 @@
 
 input:focus {
     background-color: white;
-    outline: black;
-    border: 2px solid black;
+    outline: none;
 }
 
 textarea {
@@ -91,7 +90,7 @@ textarea:focus {
     }
 
     .input:focus {
-        border: 2px solid yellow;
+        border: 2px solid green;
     }
 
     textarea {
@@ -101,7 +100,7 @@ textarea:focus {
     }
 
     textarea:focus {
-        border: 2px solid yellow;
+        border: 2px solid green;
     }
 
     .formTitle {
@@ -111,8 +110,8 @@ textarea:focus {
     }
 
     .btn {
-        background-color: yellow;
-        color: black;
+        background-color: green;
+        color: white;
         text-transform: uppercase;
         margin: 0 auto;
     }
