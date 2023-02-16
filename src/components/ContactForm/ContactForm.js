@@ -58,20 +58,20 @@ function ContactForm() {
         placeholder='imię'
         name={"name"}
         value={inputValue.name}
-        onChange={handleChangeInputValue}
+        onChange={handleChangeInputValue} required
         />
         <input 
         className={"input"} 
         placeholder='email'
         name={"email"}
         value={inputValue.email}
-        onChange={handleChangeInputValue}
+        onChange={handleChangeInputValue} required type="email"
         />
         <textarea 
         placeholder='twoja wiadomość'
         name={"text"}
         value={inputValue.text}
-        onChange={handleChangeInputValue}
+        onChange={handleChangeInputValue} required
         />
         <button className={"btn"}>WYŚLIJ</button>
       </form>
