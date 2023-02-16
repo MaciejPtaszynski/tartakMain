@@ -15,7 +15,7 @@ function Footer() {
         <img alt={"company logo"} className={"footerLogo"} src={logoTartak}/>
         <div className={"invoice"}>
           <p>Tartak Markowski Wojtowicz S.C</p>
-          <p>Regon: 12345678901234</p>
+          <p>Regon: 523819235</p>
           <p>NIP: 5792287295</p>
           <p>Kościuszki 49</p>
           <p>80-112 Ostaszewo</p>
@@ -23,6 +23,7 @@ function Footer() {
       </div>
       <div className={"col"}>
         <a className="footerIcon" href="tel:534916564"><PhoneAndroidIcon sx={{marginRight: 2}}/><p>534 916 564</p></a>
+        <a className="footerIcon" href="tel:608055860"><PhoneAndroidIcon sx={{marginRight: 2}}/><p>608 055 860</p></a>
         <a className="footerIcon test" href="mailto:jantartartak@gmail.com"><AlternateEmailIcon sx={{marginRight: 2}}/>
           <p>jantartartak@gmail.com </p></a>
         <a href={sawmillUrl} className="footerIcon"><MyLocationIcon sx={{marginRight: 2}}/><p>Jantar Leśniczówka 20a
