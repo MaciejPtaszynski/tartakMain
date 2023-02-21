@@ -18,7 +18,7 @@ function Footer() {
           <p>Regon: 523819235</p>
           <p>NIP: 5792287295</p>
           <p>Kościuszki 49</p>
-          <p>80-112 Ostaszewo</p>
+          <p>82-112 Ostaszewo</p>
         </div>
       </div>
       <div className={"col"}>
