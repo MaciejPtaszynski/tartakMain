@@ -34,8 +34,7 @@ function Hero() {
         <h4>Konstrukcje Dachowe, Deski Tarasowe</h4>
         <h4>Altanki, Stoły, Ławki i Płoty</h4>
         <h4>Schody, Palety, Drewno szalunkowe</h4>
-      </MovingComponent>
-        
+      </MovingComponent>  
       </div>
       <div className={"contact-form"}>
         <ContactForm/>
