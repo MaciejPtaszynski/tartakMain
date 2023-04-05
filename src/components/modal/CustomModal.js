@@ -7,6 +7,7 @@ import Stairs from "./modalContents/Stairs";
 import Pallets from "./modalContents/Pallets";
 import Formwork from "./modalContents/Formwork";
 import Transport from "./modalContents/Transport";
+import Rodo from "./modalContents/Rodo";
 
 export default function CustomModal({handleClose, modalContent}) {
 
@@ -30,6 +31,8 @@ export default function CustomModal({handleClose, modalContent}) {
                 modalContent === "formwork" ? <Formwork handleClose={handleClose}/>
                   :
                   modalContent === "transport" ? <Transport handleClose={handleClose}/>
+                    :
+                    modalContent === "rodo" ? <Rodo handleClose={handleClose}/>
                     :
                     null
       }

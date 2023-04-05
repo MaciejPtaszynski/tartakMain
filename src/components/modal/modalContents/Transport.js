@@ -1,7 +1,7 @@
 import React from "react"
 import {Box, Button, Typography, useMediaQuery} from "@mui/material";
-import img1 from "../../../library/konstrukcja-dachu1.webp";
-import img2 from "../../../library/konstrukcja-dachu2.jpg";
+import img1 from "../../../library/transport1.jpg";
+import img2 from "../../../library/transport2.jpg";
 import CloseIcon from '@mui/icons-material/Close';
 
 export default function Roof({handleClose}) {
@@ -52,7 +52,8 @@ export default function Roof({handleClose}) {
 
   const imageStyle = {
     marginTop: 12,
-    borderRadius: "5px"
+    borderRadius: "5px",
+    objectFit: "cover"
   };
 
   return (
