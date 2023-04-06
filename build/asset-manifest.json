@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.88af663c.css",
-    "main.js": "/static/js/main.8802bc49.js",
+    "main.css": "/static/css/main.d0a06f1e.css",
+    "main.js": "/static/js/main.20b10a98.js",
     "static/media/heroImg.jpg": "/static/media/heroImg.0338e06fae69bd24ef4b.jpg",
     "static/media/paleta1.jpg": "/static/media/paleta1.9adfd7ac0cdbf06de2c2.jpg",
     "static/media/Ławka1.jpg": "/static/media/Ławka1.5d9831eefd5b058e1760.jpg",
     "static/media/wiata1.jpg": "/static/media/wiata1.724d41db7cc80caadd7e.jpg",
     "static/media/schody1.webp": "/static/media/schody1.7a007acf2307372af377.webp",
+    "static/media/transport2.jpg": "/static/media/transport2.840ad2c8650f33243bb5.jpg",
     "static/media/deska-tarasowa2.jpg": "/static/media/deska-tarasowa2.3d740937be4947e34541.jpg",
     "static/media/deski-sz2.webp": "/static/media/deski-sz2.0d61d89c1889e1537f8f.webp",
     "static/media/deska-tarasowa1.webp": "/static/media/deska-tarasowa1.51e82db78aa057531920.webp",
@@ -19,11 +20,11 @@
     "static/media/wiata3.webp": "/static/media/wiata3.a7e7116e3851778be9f4.webp",
     "static/media/paleta2.webp": "/static/media/paleta2.77eb2dd1345b7eee4078.webp",
     "index.html": "/index.html",
-    "main.88af663c.css.map": "/static/css/main.88af663c.css.map",
-    "main.8802bc49.js.map": "/static/js/main.8802bc49.js.map"
+    "main.d0a06f1e.css.map": "/static/css/main.d0a06f1e.css.map",
+    "main.20b10a98.js.map": "/static/js/main.20b10a98.js.map"
   },
   "entrypoints": [
-    "static/css/main.88af663c.css",
-    "static/js/main.8802bc49.js"
+    "static/css/main.d0a06f1e.css",
+    "static/js/main.20b10a98.js"
   ]
 }
