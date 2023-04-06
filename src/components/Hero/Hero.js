@@ -12,6 +12,7 @@ const sawmillUrl = "https://www.google.com/maps/place/Jantar+Le%C5%9Bnicz%C3%B3w
 
 function Hero() {
 
+  const [accepted, setAccepted] = useState(localStorage.getItem('acceptedPrivacyPolicy'));
   const [openModal, setOpenModal] = useState(false);
   const [modalContent, setModalContent] = useState("");
   const [openBanner, setOpenBanner] = useState(true)
@@ -24,6 +25,11 @@ function Hero() {
   };
   const handleCloseModal = () => {
     setOpenModal(false)
+  };
+
+  const handleAccept = () => {
+    localStorage.setItem('acceptedPrivacyPolicy', true);
+    setAccepted(true);
   };
 
 
@@ -56,7 +62,7 @@ function Hero() {
       <div className={"contact-form"}>
         <ContactForm/>
       </div>
-      {openBanner && <div className='bannerWrapper'>
+      {!accepted && <div className='bannerWrapper'>
         <div className='bannerContent'>
           <h3>
           Ta strona korzysta z plików cookies,
@@ -65,7 +71,7 @@ function Hero() {
            W każdej chwili możesz dokonać zmiany ustawień dotyczących cookies w swojej przeglądarce.
           </h3>
           <div className="bannerButtons">
-          <button className="button" onClick={handleCloseBanner}>
+          <button className="button" onClick={()=> {handleCloseBanner(); handleAccept()}}>
             Akceptuj
           </button>
           <button className="button" onClick={()=>{handleOpenModal(); setModalContent('rodo')}}>
