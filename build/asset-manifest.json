@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d0a06f1e.css",
-    "main.js": "/static/js/main.20b10a98.js",
+    "main.js": "/static/js/main.9db53a3b.js",
     "static/media/heroImg.jpg": "/static/media/heroImg.0338e06fae69bd24ef4b.jpg",
     "static/media/paleta1.jpg": "/static/media/paleta1.9adfd7ac0cdbf06de2c2.jpg",
     "static/media/Ławka1.jpg": "/static/media/Ławka1.5d9831eefd5b058e1760.jpg",
@@ -21,10 +21,10 @@
     "static/media/paleta2.webp": "/static/media/paleta2.77eb2dd1345b7eee4078.webp",
     "index.html": "/index.html",
     "main.d0a06f1e.css.map": "/static/css/main.d0a06f1e.css.map",
-    "main.20b10a98.js.map": "/static/js/main.20b10a98.js.map"
+    "main.9db53a3b.js.map": "/static/js/main.9db53a3b.js.map"
   },
   "entrypoints": [
     "static/css/main.d0a06f1e.css",
-    "static/js/main.20b10a98.js"
+    "static/js/main.9db53a3b.js"
   ]
 }

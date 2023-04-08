@@ -62,7 +62,7 @@ function Hero() {
       <div className={"contact-form"}>
         <ContactForm/>
       </div>
-      {!accepted && <div className='bannerWrapper'>
+      {!accepted && openBanner && <div className='bannerWrapper'>
         <div className='bannerContent'>
           <h3>
           Ta strona korzysta z plików cookies,
