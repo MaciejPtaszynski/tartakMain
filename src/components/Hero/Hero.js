@@ -15,7 +15,7 @@ function Hero() {
   const [accepted, setAccepted] = useState(localStorage.getItem('acceptedPrivacyPolicy'));
   const [openModal, setOpenModal] = useState(false);
   const [modalContent, setModalContent] = useState("");
-  const [openBanner, setOpenBanner] = useState(true)
+  const [setOpenBanner] = useState(true)
 
   const handleCloseBanner = () => {
     setOpenBanner(false)
