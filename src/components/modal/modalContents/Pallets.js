@@ -28,7 +28,6 @@ export default function Roof({handleClose}) {
     textAlign: "center",
   };
 
-
   const modalContent = {
     position: 'relative',
     display: "flex",
@@ -78,4 +77,3 @@ export default function Roof({handleClose}) {
     </Box>
   )
 };
-

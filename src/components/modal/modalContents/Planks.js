@@ -69,7 +69,7 @@ export default function Roof({handleClose}) {
         </Box>
         <Typography p={5} sx={{lineHeight: 1.5}}> W naszej ofercie znajdują się deski tarasowe gładkie jak i ryflowane
           sosnowe. Na indywidualne zlecenie wykonujemy deski w różnych szerokościach. Więcej informacji pod nr telefonu
-          534 916 564 lub mailowo jantartartak@gmail.com 
+          534 916 564 lub mailowo jantartartak@gmail.com
         </Typography>
         {isMobile && <Button sx={{marginBottom: 3, padding: "10px 30px", backgroundColor: "#98ff98"}}
                              onClick={handleClose}>ZAMIKNIJ</Button>}
@@ -77,4 +77,3 @@ export default function Roof({handleClose}) {
     </Box>
   )
 };
-

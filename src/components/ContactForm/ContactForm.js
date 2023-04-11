@@ -10,7 +10,6 @@ function ContactForm() {
     name: "",
     email: "",
     text: "",
-    
   }]);
 
   const handleChangeInputValue = (event) => {
@@ -53,21 +52,21 @@ function ContactForm() {
           <h1>Skontaktuj się z nami</h1>
           <h3>Wyceny , zapytania, oferty</h3>
         </div>
-        <input 
+        <input
         className={"input"}
         placeholder='imię'
         name={"name"}
         value={inputValue.name}
         onChange={handleChangeInputValue} required
         />
-        <input 
-        className={"input"} 
+        <input
+        className={"input"}
         placeholder='email'
         name={"email"}
         value={inputValue.email}
         onChange={handleChangeInputValue} required type="email"
         />
-        <textarea 
+        <textarea
         placeholder='twoja wiadomość'
         name={"text"}
         value={inputValue.text}

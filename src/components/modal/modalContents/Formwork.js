@@ -35,6 +35,7 @@ export default function Roof({handleClose}) {
     alignItems: "center",
     justifyContent: "center",
   };
+
   const closeIcon = {
     position: "absolute",
     right: "1%",
@@ -48,7 +49,6 @@ export default function Roof({handleClose}) {
     width: !isMobile ? "80%" : "100%",
     paddingTop: "20px"
   };
-
 
   const imageStyle = {
     marginTop: 12,
@@ -76,4 +76,3 @@ export default function Roof({handleClose}) {
     </Box>
   )
 };
-

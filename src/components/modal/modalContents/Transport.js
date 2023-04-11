@@ -68,8 +68,8 @@ export default function Roof({handleClose}) {
           <img alt={"roof construction"} style={imageStyle} src={img1}/>
           <img alt={"2nd roof construction"} style={imageStyle} src={img2}/>
         </Box>
-        <Typography p={5} sx={{lineHeight: 1.5}}>Prowadzimy kompleksowy transport naszych materiałów. 
-          Wyceny transportu dokonujemy na podstawie dystansu do miejsca dostawy. 
+        <Typography p={5} sx={{lineHeight: 1.5}}>Prowadzimy kompleksowy transport naszych materiałów.
+          Wyceny transportu dokonujemy na podstawie dystansu do miejsca dostawy.
           Więcej informacji pod nr telefonu 534 916 564
           lub mailowo jantartartak@gmail.com
         </Typography>
@@ -79,4 +79,3 @@ export default function Roof({handleClose}) {
     </Box>
   )
 };
-
